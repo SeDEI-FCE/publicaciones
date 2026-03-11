@@ -143,3 +143,25 @@ h3 {
 body {
   font-family: "IBM Plex Sans", sans-serif;
 }
+
+
+/* Caja para mostrar el ítem/pregunta */
+.item-box {
+  background-color: #faf6f6;
+  border: 1px solid #ead6d9;
+  border-left: 5px solid #b43e4d;
+  border-radius: 8px;
+  padding: 0.9rem 1rem;
+  margin: 0.8rem 0 1rem 0;
+  color: #4a4a4a;
+  font-size: 0.96rem;
+  line-height: 1.45;
+}
+
+.item-box strong,
+.item-box .item-label {
+  color: #8f2337;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 0.25rem;
+}
