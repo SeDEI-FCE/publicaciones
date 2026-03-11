@@ -1,0 +1,145 @@
+/* styles.css */
+  :root{
+      --vf-red: #B81C1D;
+      --vf-orange: #D1561D;
+      --vf-yellow: #EDA30C;
+      --vf-bg: #EFEFEF;
+      --vf-gray: #ACACAC;
+      --vf-softred: #CA5F5F;
+      --vf-cream: #ECD4A6;
+      --vf-grayoscuro: #4B5563;
+  }
+
+/* Encabezados */
+  h1 , h2{
+    color: var(--vf-red);
+  }
+  h3 {
+    color: var(--vf-grayoscuro);
+  }
+
+/* Links */
+  a { color: var(--vf-orange); }
+
+/* Callouts */
+  .callout.callout-style-default>.callout-header {
+    background: var(--vf-bg);
+    border-left: 4px solid var(--vf-red);
+  }
+.callout.callout-style-default {
+  border-left: 4px solid var(--vf-red);
+}
+
+/* Tablas */
+  table {
+    font-size: 0.95rem;
+  }
+
+/* Resaltados */
+  .vf-badge {
+    display: inline-block;
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+    background: var(--vf-bg);
+    border: 1px solid var(--vf-gray);
+    color: #333;
+      font-size: 0.85rem;
+  }
+  
+
+/* Panel tabset */
+.panel-tabset .nav-tabs {
+  border-bottom: 2px solid var(--vf-red);
+  margin-bottom: 0.75rem;
+}
+
+.panel-tabset .nav-tabs .nav-link {
+  color: var(--vf-grayoscuro);
+  background-color: white;
+  border: 1px solid transparent;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  font-weight: 600;
+}
+
+.panel-tabset .nav-tabs .nav-link:hover {
+  color: var(--vf-red);
+  background-color: var(--vf-cream);
+  border-color: var(--vf-cream);
+}
+
+.panel-tabset .nav-tabs .nav-link.active {
+  color: var(--vf-red);
+  background-color: var(--vf-cream);
+  border-color: var(--vf-red);
+  border-bottom-color: white;
+}
+
+.panel-tabset .tab-content {
+  border: 1px solid var(--vf-gray);
+  border-top: none;
+  padding: 1rem;
+  background-color: white;
+}
+
+.panel-tabset {
+  margin-bottom: 2rem;
+}
+
+/* Separación de cada pregunta */
+h2 {
+  margin-top: 3rem;
+}
+
+/* Separación de cada pregunta */
+h3 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+
+/* Ficha metodologica */
+
+.ficha-metodologica {
+  background-color: #f3f4f6;
+  border-left: 4px solid #d1d5db;
+  padding: 1rem 1.25rem;
+  margin: 2.5rem 0 2.5rem 0;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+.ficha-metodologica p:last-child {
+  margin-bottom: 0;
+}
+
+.ficha-metodologica ul {
+  margin-bottom: 0.75rem;
+}
+
+
+.titulo-portada {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: var(--vf-red);
+}
+
+.subtitulo-portada {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+
+.autor-portada,
+.fecha-portada {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
